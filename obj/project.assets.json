@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas_ogscmml\\source\\repos\\ExerciciosPOOLista1\\ExerciciosPOOLista1.csproj",
+      "projectUniqueName": "C:\\Users\\lucas_ogscmml\\github\\ExerciciosPOOLista1\\ExerciciosPOOLista1.csproj",
       "projectName": "ExerciciosPOOLista1",
-      "projectPath": "C:\\Users\\lucas_ogscmml\\source\\repos\\ExerciciosPOOLista1\\ExerciciosPOOLista1.csproj",
+      "projectPath": "C:\\Users\\lucas_ogscmml\\github\\ExerciciosPOOLista1\\ExerciciosPOOLista1.csproj",
       "packagesPath": "C:\\Users\\lucas_ogscmml\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas_ogscmml\\source\\repos\\ExerciciosPOOLista1\\obj\\",
+      "outputPath": "C:\\Users\\lucas_ogscmml\\github\\ExerciciosPOOLista1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas_ogscmml\\AppData\\Roaming\\NuGet\\NuGet.Config",

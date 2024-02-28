@@ -13,5 +13,46 @@ namespace ExerciciosPOOLista1
         número de páginas do livro. Adicione métodos para emprestar o livro, devolvê-lo e
         verificar se está disponível.
         */
+
+        public string Titulo { get; set; }
+        public string Autor { get; set; }
+        public int NumPaginas { get; set; }
+        public bool Disponibilidade { get; set; }
+
+        public Livro(string titulo, string autor, int numPaginas)
+        {
+            Titulo = titulo;
+            Autor = autor;
+            NumPaginas = numPaginas;
+            Disponibilidade = true;
+        }
+
+        public void EmprestarLivro()
+        {
+            if (Disponibilidade == true)
+            {
+                Disponibilidade = false;
+            }
+        }
+
+        public void DevolverLivro()
+        {
+            if (Disponibilidade == false)
+            {
+                Disponibilidade = true;
+            }
+        }
+
+        public void VerificarDisponibilidade()
+        {
+            if (Disponibilidade == true)
+            {
+                Console.WriteLine($"O livro {Titulo} está disponível para emprestimo.");
+            }
+            else
+            {
+                Console.WriteLine($"O livro {Titulo} não está disponível para emprestimo.");
+            }
+        }
     }
 }

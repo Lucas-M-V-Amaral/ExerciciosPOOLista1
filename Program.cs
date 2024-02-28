@@ -33,6 +33,10 @@
             carro.Frear();
             carro.ExibirVelocidade();*/
 
+            Paciente p1 = new Paciente("Godofredo", 20);
+            p1.AdicionarConsulta("Avaliação do cotovelo, realizada no dia 22/01/2002");
+            p1.AdicionarConsulta("Avaliação do baço, realizada no dia 14/12/2002");
+            p1.ExibirConsultas();
         }
     }
 }
